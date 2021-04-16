@@ -21,7 +21,7 @@ body, html{
 .Navigation {
     background-color: black;
     padding: 1rem;  
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 0rem;
     font-family: 'Roboto Slab', serif; 
 }
 
@@ -155,6 +155,18 @@ body, html{
     font-size: larger;
     
 }
+
+.container1{
+    width: 100%;
+    height: 100%;
+    margin-top: 0rem;
+    background-image: url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.container1 .box{
+    
+    text-align: center;
+}
 /**.center{
     background-size: auto;
     position: relative;
@@ -165,30 +177,3 @@ body, html{
     padding: 1rem 2rem 3rem 4rem;
 }
 
-.html5{
-    max-height: 100px;
-    max-width: 100px;
-    padding-right: 15rem;
-    padding-left: 5rem;
-}
-
-.css{
-    max-height: 100px;
-    max-width: 100px;
-    padding-right: 20rem;
-    padding-left: 10rem;
-}
-
-.react{
-    max-height: 100px;
-    max-width: 100px;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    
-    
-}
-
-.icon{
-    padding-left: 8rem;
-    padding-right: 8rem;
-}
