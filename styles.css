@@ -21,7 +21,8 @@ body, html{
 .Navigation {
     background-color: black;
     padding: 1rem;  
-    border-bottom-left-radius: 1rem; 
+    border-bottom-left-radius: 1rem;
+    font-family: 'Roboto Slab', serif; 
 }
 
 .Navigation .container{
@@ -34,6 +35,17 @@ body, html{
 
 .Navigation .Nav-pills{
     text-align: right;
+}
+
+.Navigation .btn{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .Navigation .Link{
@@ -51,19 +63,11 @@ body, html{
 
 .Listitem {
     display: inline;
-    padding: 1rem 2rem 3rem;
+    padding: 0.5rem 1rem 1.5rem;
     
 }
 
-.btn{
-    border: 2px solid white;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-}
+
 
 /**.imageOne{
     padding: 2rem;
@@ -101,6 +105,10 @@ body, html{
     margin-right: auto;
 }
 
+.name{
+    color: black;
+}
+
 /**.imageOne-img{
    
     width: 1518px;
@@ -133,9 +141,38 @@ body, html{
     width: 80%;
     padding: 20px;
     text-align: center;
+    font-size: larger;
     
 }
 /**.center{
     background-size: auto;
     position: relative;
 }**/
+
+.iconcontainer{
+    display: inline;
+    padding: 1rem 2rem 3rem 4rem;
+}
+
+.html5{
+    max-height: 100px;
+    max-width: 100px;
+    padding-right: 15rem;
+    padding-left: 5rem;
+}
+
+.css{
+    max-height: 100px;
+    max-width: 100px;
+    padding-right: 20rem;
+    padding-left: 10rem;
+}
+
+.react{
+    max-height: 100px;
+    max-width: 100px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+    
+}
