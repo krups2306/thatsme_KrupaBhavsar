@@ -34,7 +34,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: crimson;
+	color: rgb(37, 37, 153);
 }
 
 .container1 {
@@ -60,7 +60,7 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: crimson;
+	background-color: rgb(37, 37, 153);
 }
 
 .brand h1 {
@@ -143,7 +143,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: rgb(37, 37, 153);
 }
 #header .hamburger {
 	height: 60px;
@@ -355,6 +355,19 @@ p {
 	z-index: 1;
 }
 
+.about-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+.about-title span {
+	color: rgb(37, 37, 153);
+}
+
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
@@ -412,6 +425,19 @@ p {
     background-position: top center;
 	position: relative;
 	z-index: 1;
+}
+
+.skill-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+.skill-title span {
+	color: rgb(37, 37, 153);
 }
 
 #skills .skills {
@@ -487,6 +513,15 @@ p {
 	z-index: 1;
 }
 
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 1rem 3rem 10rem;
+}
+
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -497,13 +532,13 @@ p {
 	margin-bottom: 50px;
 }
 #projects .all-projects {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
 #projects .project-item {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
@@ -514,7 +549,7 @@ p {
 }
 #projects .project-info {
 	padding: 30px;
-	flex-basis: 1%;
+	flex-basis: 20%;
 	height: 50%;
 	display: flex;
 	align-items: flex-start;
@@ -524,15 +559,18 @@ p {
 	color: white;
 }
 #projects .project-info h1 {
-	font-size: 4rem;
-	font-weight: 500;
+	font-size: 2rem;
+	font-weight: bold;
+	color: black;
 }
 #projects .project-info h2 {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-weight: 500;
 	margin-top: 10px;
+	color: black;
 }
 #projects .project-info p {
+	font-size: 1rem;
 	color: white;
 }
 #projects .project-img {
