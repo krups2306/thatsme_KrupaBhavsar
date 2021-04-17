@@ -5,13 +5,40 @@
 }
 
 body, html{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     
-    height: 100%;
     font-family: 'Roboto Slab', serif;
     margin: auto;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container1 {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cta {
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid crimson;
+	
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	margin-top: 30px;
+	transition: .3s ease;
+	transition-property: background-color, color;
+}
+.cta:hover {
+	color: white;
+	background-color: crimson;
 }
 
 /**.hr{
@@ -27,6 +54,7 @@ body, html{
 
 .Navigation .container{
     padding: 0rem 1rem;
+    
 }
 
 .Navigation .Nav-brand {
@@ -67,6 +95,86 @@ body, html{
     
 }
 
+#hero {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+
+#hero::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: .7;
+	z-index: -1;
+}
+
+.text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 4px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+}
+/* #hero .hero {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+#hero h1 {
+	display: block;
+	width: fit-content;
+	font-size: 2.5rem;
+	position: relative;
+	color: black;
+	animation: text_reveal .5s ease forwards;
+	animation-delay: 1s;
+} */
+/* #hero h1:nth-child(1) {
+	animation-delay: 1s;
+}
+#hero h1:nth-child(2) {
+	animation-delay: 2s;
+}
+#hero h1:nth-child(3) {
+	animation: text_reveal_name .5s ease forwards;
+	animation-delay: 3s;
+} */
+#hero h1 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: black;
+	animation: text_reveal_box 1s ease;
+	animation-delay: .5s;
+}
+#hero h1:nth-child(1) span {
+	animation-delay: .5s;
+}
+#hero h1:nth-child(2) span {
+	animation-delay: 1.5s;
+}
+#hero h1:nth-child(3) span {
+	animation-delay: 2.5s;
+}
 
 
 /**.imageOne{
@@ -97,7 +205,7 @@ body, html{
     min-height: 100%;
 }**/
 
-.backimg{
+/* .backimg{
 
     position: relative;
     max-width: 1518px;
@@ -110,7 +218,7 @@ body, html{
 .name{
     color: black;
 }
-
+ */
 /**.imageOne-img{
    
     width: 1518px;
@@ -127,7 +235,7 @@ body, html{
     transform: translate(-50%, -50%);
     color: white;
 }**/
-.imageOne{
+/* .imageOne{
     max-width: 1518px;
     max-height: 1500px;
     min-width: 400px;
@@ -166,7 +274,7 @@ body, html{
 .container1 .box{
     
     text-align: center;
-}
+} */
 /**.center{
     background-size: auto;
     position: relative;
