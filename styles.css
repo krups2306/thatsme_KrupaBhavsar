@@ -27,7 +27,7 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -49,7 +49,7 @@ p {
 	display: inline-block;
 	padding: 10px 30px;
 	color:white;
-	background-color: rgb(26, 25, 25);
+	background-color: rgb(54, 52, 52);
 	border: 2px solid rgb(37, 37, 153);
 	
 	text-transform: uppercase;
@@ -293,6 +293,8 @@ p {
     text-align: center;
     font-size: larger;
 }
+
+
 /* #hero .hero {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -336,6 +338,10 @@ p {
 }
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
+}
+
+.name{
+	color: rgb(37, 37, 153);
 }
 
 
@@ -414,8 +420,10 @@ p {
 	max-width: 1500px;
 	margin: 1rem;
 	padding: 10px 0;
+    
 }
 #skills .skill-top {
+    padding-top: 11rem;
 	max-width: 500px;
 	margin: 0 auto;
 }
@@ -470,5 +478,98 @@ p {
 }
 /* End Services Section */
 
+/* Projects section */
+#projects {
+    background-image: url(prj2.jpg);
+    background-size: cover;
+    background-position: top center;
+	position: relative;
+	z-index: 1;
+}
 
+#projects .projects {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#projects .projects-header h1 {
+	margin-bottom: 50px;
+}
+#projects .all-projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#projects .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 40%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#projects .project-info {
+	padding: 30px;
+	flex-basis: 1%;
+	height: 50%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #8be6b4 0%, #c1ebd9 100%);
+	color: white;
+}
+#projects .project-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+#projects .project-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#projects .project-info p {
+	color: white;
+}
+#projects .project-img {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #d1d7dd 0%, #c3c9cf 100%);
+	opacity: .7;
+}
+#projects .project-img img {
+	transition: .3s ease transform;
+}
+#projects .project-item:hover .project-img img {
+	transform: scale(1.1);
+}
 
+.link {
+    background-color: rgb(37, 37, 153);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+
+}
+/* End Projects section */
