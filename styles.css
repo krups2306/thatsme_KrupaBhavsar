@@ -456,7 +456,7 @@ p {
 #skills .skill-bottom {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
@@ -506,22 +506,16 @@ p {
 
 /* Projects section */
 #projects {
-    background-image: url(prj2.jpg);
+    background-image: url(prj0.jpg);
     background-size: cover;
     background-position: top center;
 	position: relative;
 	z-index: 1;
 }
-
-
-/* End Projects section */
-
-
-
 .project-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: white;
+	color: black;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -533,7 +527,7 @@ p {
 
 .subtext {
     font-size: 15px;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 .sub-section-alternative {
@@ -559,7 +553,11 @@ p {
     height: 400px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
-	background-image: url(gray.jpg);
+	font-weight: bold;
+	background-image: linear-gradient(60deg, #8492a1 0%, #c1c9d1 100%);
+	
+	z-index: -1;
+	
 }
 
 .project-container {
@@ -599,4 +597,99 @@ hr {
 a {
     text-decoration: none;
     color: white;
+}
+
+/* End Projects section */
+
+/* Blogs section */
+
+#blogs {
+    background-image: url(blog.jpg);
+    background-size: cover;
+    background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+.blog-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+.blog-title span {
+	color: rgb(37, 37, 153);
+}
+.blog-card {
+    width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgb(207, 170, 127);
+    margin: 10px;
+	font-weight: bold;
+	background-image: linear-gradient(6deg, #8492a1 0%, #e0c487 10%);
+	
+	z-index: -1;
+	
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .blog-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blog-link {
+	background-color: rgb(37, 37, 153);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#contact {
+    background-image: url(cnt.jpg);
+    background-size: cover;
+    background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+.contact-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+.contact-title span {
+	color: rgb(37, 37, 153);
 }
