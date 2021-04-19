@@ -663,13 +663,18 @@ a {
 
 .List-non-bullet{
     list-style: none;
+	padding-left: 30rem;
+	padding-right: 30rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
-.Listitem {
-    display: inline;
-    padding: 1rem 1rem 1rem;
-}
+.List-item {
+    margin: 0 auto;
+	width: fit-content;
+	display: inline;
 
+}
 .Link{
     color:white;
 }
