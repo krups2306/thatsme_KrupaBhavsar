@@ -455,6 +455,8 @@ p {
 }
 /* End Services Section */
 
+
+
 /* Projects section */
 #projects {
     background-image: url(prj0.jpg);
@@ -515,8 +517,8 @@ p {
 }
 
  .project-card {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
     box-shadow: 5px 5px 20px rgb(240, 197, 81);
     margin: 10px;
 	font-weight: bold;
@@ -563,6 +565,7 @@ hr {
 a {
     text-decoration: none;
     color: white;
+	
 }
 
 /* End Projects section */
@@ -650,7 +653,7 @@ a {
 .contact-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -663,15 +666,11 @@ a {
 
 .List-non-bullet{
     list-style: none;
-	padding-left: 30rem;
-	padding-right: 30rem;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	
 }
 
 .List-item {
-    margin: 0 auto;
-	width: fit-content;
+   
 	display: inline;
 
 }
@@ -684,19 +683,33 @@ a {
 }
 
 
-.cntimg{
-	
-}
-
-#sample{
-	text-align: center;
-	padding: auto;
-}
-
-#exp{
+.cnt-container{
+	height: 100%;
+	width: 100%;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	display: inline-block;
+	align-items: center;
 	justify-content: center;
-	display: inline;
 }
+
+.para {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	text-align: center;
+}
+
+.iconcnt{
+	justify-content: center;
+	padding-top: 3rem;
+	padding-left: 27rem;
+}
+
+
 
 .socials {
     padding-bottom: 200px;
@@ -709,4 +722,5 @@ a {
 .social {
     margin: 20px;
 }
+
 
