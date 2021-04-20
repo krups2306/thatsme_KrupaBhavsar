@@ -208,7 +208,7 @@ p {
 
 
 #hero {
-    background-image: url(hero.jpg);
+    background-image: url(./images/hero.jpg);
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -299,7 +299,7 @@ p {
 
 
 #about {
-    background-image: url(about.jpg);
+    background-image: url(./images/about.jpg);
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -371,7 +371,7 @@ p {
 
 /* Services Section */
 #skills {
-    background-image: url(skill.jpg);
+    background-image: url(./images/skill.jpg);
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -459,7 +459,7 @@ p {
 
 /* Projects section */
 #projects {
-    background-image: url(prj0.jpg);
+    background-image: url(./images/prj0.jpg);
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -573,7 +573,7 @@ a {
 /* blog section start */
 
 #blogs {
-    background-image: url(gray.jpg);
+    background-image: url(./images/gray.jpg);
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -642,7 +642,7 @@ hr {
 /* contact section start */
 
 #contact {
-    background-image: url(cnt.jpg);
+    background-image: url(./images/cnt.jpg);
     background-size: cover;
     background-position: top center;
 	position: relative;
