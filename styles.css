@@ -44,10 +44,10 @@ hr {
 
 .para {
 	font-size: 1.2rem;
-	font-weight: 250;
+	font-weight: 300;
 	color: black;
-	margin-bottom: 10px;
-	
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	letter-spacing: .1rem;
 	text-align: center;
 }
@@ -311,7 +311,6 @@ hr {
 	position: relative;
 	z-index: 1;
 }
-
 .about-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -321,7 +320,6 @@ hr {
 	letter-spacing: .2rem;
 	text-align: center;
 }
-
 .about-title span {
 	color: rgb(37, 37, 153);
 }
@@ -336,7 +334,6 @@ hr {
 	margin: 0 auto;
 	padding: 100px 20px;
 }
-
 #about .col-left {
 	width: 250px;
 	height: 360px;
