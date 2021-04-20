@@ -47,7 +47,7 @@ hr {
 	font-weight: 250;
 	color: black;
 	margin-bottom: 10px;
-	text-transform: uppercase;
+	
 	letter-spacing: .1rem;
 	text-align: center;
 }
@@ -78,6 +78,19 @@ hr {
 .brand h1 span {
 	color: rgb(37, 37, 153);
 }
+
+.subtext {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
 
 
 
@@ -312,7 +325,10 @@ hr {
 .about-title span {
 	color: rgb(37, 37, 153);
 }
-
+.sub-title span{
+	font-weight: bolder;
+	color: rgb(37, 37, 153);
+}
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
@@ -325,11 +341,9 @@ hr {
 	width: 250px;
 	height: 360px;
 }
-
 #about .col-right {
 	width: 100%;
 }
-
 #about .col-right h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
@@ -346,7 +360,6 @@ hr {
 	position: relative;
 	z-index: 1;
 }
-
 .skill-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -357,11 +370,9 @@ hr {
 	text-align: center;
 	padding-bottom: 3rem;
 }
-
 .skill-title span {
 	color: rgb(37, 37, 153);
 }
-
 .skill-card {
     width: 300px;
     height: 300px;
@@ -371,18 +382,15 @@ hr {
 	background-color: rgba(98, 147, 194, 0.24);
 	padding-top: 2rem;
 } 
-
 .skill-container {
     display: flex;
     justify-content: space-around;
 	padding-bottom: 3rem;
 }
-
 .subtext-sk {
     font-size: 14px;
     font-weight: bold;
 }
-
 @media only screen and (max-width: 1000px) {
     .skill-container {
         display: flex;
@@ -399,7 +407,6 @@ hr {
 	position: relative;
 	z-index: 1;
 }
-
 .project-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -410,23 +417,9 @@ hr {
 	text-align: center;
 	padding-bottom: 4rem;
 }
-
 .project-title span {
 	color: rgb(37, 37, 153);
 }
-
-.subtext {
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.sub-section-alternative {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 80px;
-}
-
  .project-card {
     width: 300px;
     height: 300px;
@@ -435,19 +428,16 @@ hr {
 	font-weight: bold;
 	background-color: rgba(98, 147, 194, 0.24);
 } 
-
 .project-container {
     display: flex;
     justify-content: space-around;
 }
-
 @media only screen and (max-width: 1000px) {
     .project-container {
         display: flex;
         flex-wrap: wrap;
     }
 }
-
 .project-link {
 	background-color: rgb(37, 37, 153);
     text-decoration: none;
@@ -461,12 +451,6 @@ hr {
     padding-top: 0.5rem;
     text-align: center;
 }
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
 /* project section end */
 
 /* blog section start */
@@ -478,7 +462,6 @@ a {
 	position: relative;
 	z-index: 1;
 }
-
 .blog-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -489,11 +472,9 @@ a {
 	text-align: center;
 	padding-bottom: 4rem;
 }
-
 .blog-title span {
 	color: rgb(37, 37, 153);
 }
-
 .blog-card {
     width: 300px;
     height: 300px;
@@ -502,24 +483,20 @@ a {
 	font-weight: bold;
 	background-color: rgba(78, 55, 31, 0.24);	
 }
-
 .blog-container {
     display: flex;
     justify-content: space-around;
 }
-
 @media only screen and (max-width: 1000px) {
     .blog-container {
         display: flex;
         flex-wrap: wrap;
     }
 }
-
 hr {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 .blog-link {
 	background-color: rgb(37, 37, 153);
     text-decoration: none;
@@ -545,7 +522,6 @@ hr {
 	position: relative;
 	z-index: 1;
 }
-
 .contact-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -556,24 +532,20 @@ hr {
 	text-align: center;
 	padding-top: 5rem;
 }
-
 .contact-title span {
 	color: rgb(37, 37, 153);
 }
-
-.contact{
+.contact-container{
 	height: 100%;
 	width: 100%;
 	padding-top: 2rem;
 	padding-bottom: 5rem;
 }
-
 .text-cnt{
 	text-align: center;
 	color: white;
 	font-size: 1.7rem;
 }
-
 .social {
     padding-left: 0.5rem;
 	padding-right: 0.5rem;
