@@ -246,31 +246,7 @@ p {
 }
 
 
-/* #hero .hero {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 50px;
-	justify-content: flex-start;
-}
-#hero h1 {
-	display: block;
-	width: fit-content;
-	font-size: 2.5rem;
-	position: relative;
-	color: black;
-	animation: text_reveal .5s ease forwards;
-	animation-delay: 1s;
-} */
-/* #hero h1:nth-child(1) {
-	animation-delay: 1s;
-}
-#hero h1:nth-child(2) {
-	animation-delay: 2s;
-}
-#hero h1:nth-child(3) {
-	animation: text_reveal_name .5s ease forwards;
-	animation-delay: 3s;
-} */
+
 #hero h1 span {
 	position: absolute;
 	top: 0;
@@ -341,32 +317,10 @@ p {
 	letter-spacing: .2rem;
 	margin-bottom: 10px;
 }
-#about .col-right p {
-	margin-bottom: 20px;
-}
-#about .col-right .cta {
-	color: white;
-	margin-bottom: 50px;
-	padding: 10px 20px;
-	font-size: 2rem;
-}
 
-#about .col-left .about-img {
-	height: 100%;
-	width: 100%;
-	position: relative;
-	border: 10px solid white;
-}
-#about .col-left .about-img::after {
-	content: '';
-	position: absolute;
-	left: -33px;
-	top: 19px;
-	height: 98%;
-	width: 98%;
-	border: 4px solid crimson;
-	z-index: -1;
-}
+
+
+
 
 
 /* Services Section */
@@ -407,7 +361,7 @@ p {
 .skill-container {
     display: flex;
     justify-content: space-around;
-	
+	padding-bottom: 3rem;
 }
 
 .subtext-sk {
@@ -589,7 +543,7 @@ hr {
 
 #contact {
     background-image: url(./images/cnt.jpg);
-    background-size: cover;
+    background-size: auto;
     background-position: top center;
 	position: relative;
 	z-index: 1;
