@@ -45,6 +45,16 @@ p {
 	justify-content: center;
 }
 
+.para {
+	font-size: 1.2rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	text-align: center;
+}
+
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
@@ -351,7 +361,7 @@ p {
 .skill-card {
     width: 300px;
     height: 400px;
-    box-shadow: 5px 5px 20px rgb(240, 197, 81);
+    box-shadow: 5px 5px 20px rgb(46, 192, 192);
     margin: 10px;
 	font-weight: bold;
 	background-color: rgba(98, 147, 194, 0.24);
@@ -418,7 +428,7 @@ p {
  .project-card {
     width: 300px;
     height: 400px;
-    box-shadow: 5px 5px 20px rgb(240, 197, 81);
+    box-shadow: 5px 5px 20px rgb(46, 123, 194);
     margin: 10px;
 	font-weight: bold;
 	background-color: rgba(98, 147, 194, 0.24);
@@ -495,7 +505,7 @@ a {
 .blog-card {
     width: 300px;
     height: 400px;
-    box-shadow: 5px 5px 20px rgb(20, 18, 18);
+    box-shadow: 5px 5px 20px rgb(160, 96, 11);
     margin: 10px;
 	font-weight: bold;
 	background-color: rgba(78, 55, 31, 0.24);
@@ -543,7 +553,7 @@ hr {
 
 #contact {
     background-image: url(./images/cnt.jpg);
-    background-size: auto;
+    background-size: cover;
     background-position: top center;
 	position: relative;
 	z-index: 1;
@@ -569,15 +579,7 @@ hr {
 	padding-bottom: 5rem;
 }
 
-.para {
-	font-size: 1.5rem;
-	font-weight: 300;
-	color: black;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: .1rem;
-	text-align: center;
-}
+
 
 .social {
     
