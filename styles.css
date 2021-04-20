@@ -15,15 +15,12 @@ a{
     text-decoration: none;
 }
 
-
-p {
-	color: black;
-	font-size: 1.4rem;
-	margin-top: 5px;
-	line-height: 2.5rem;
-	font-weight: 300;
-	letter-spacing: .05rem;
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -47,7 +44,7 @@ p {
 
 .para {
 	font-size: 1.2rem;
-	font-weight: 300;
+	font-weight: 250;
 	color: black;
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -84,7 +81,7 @@ p {
 
 
 
-/* Header section */
+/* nav section start */
 #header {
 	position: fixed;
 	z-index: 1000;
@@ -93,11 +90,13 @@ p {
 	width: 100vw;
 	height: auto;
 }
+
 #header .header {
 	min-height: 8vh;
 	background-color: rgb(26, 25, 25);
 	transition: .3s ease background-color;
 }
+
 #header .nav-bar {
 	display: flex;
 	align-items: center;
@@ -107,6 +106,7 @@ p {
 	max-width: 1300px;
 	padding: 0 10px;
 }
+
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
@@ -123,9 +123,11 @@ p {
 	overflow-x: hidden;
 	transition: .5s ease left;
 }
+
 #header .nav-list ul.active {
 	left: 0%;
 }
+
 #header .nav-list ul a {
 	font-size: 2.5rem;
 	font-weight: 500;
@@ -136,6 +138,7 @@ p {
 	padding: 20px;
 	display: block;
 }
+
 #header .nav-list ul a::after {
 	content: attr(data-after);
 	position: absolute;
@@ -148,13 +151,16 @@ p {
 	z-index: -1;
 	transition: .3s ease letter-spacing;
 }
+
 #header .nav-list ul li:hover a::after {
 	transform: translate(-50%, -50%) scale(1);
 	letter-spacing: initial;
 }
+
 #header .nav-list ul li:hover a {
 	color: rgb(37, 37, 153);
 }
+
 #header .hamburger {
 	height: 60px;
 	width: 60px;
@@ -170,6 +176,7 @@ p {
 	transform: scale(.8);
 	margin-right: 20px;
 }
+
 #header .hamburger:after {
 	position: absolute;
 	content: '';
@@ -179,6 +186,7 @@ p {
 	border: 3px solid white;
 	animation: hamburger_puls 1s ease infinite;
 }
+
 #header .hamburger .bar {
 	height: 2px;
 	width: 30px;
@@ -186,6 +194,7 @@ p {
 	background-color: white;
 	z-index: -1;
 }
+
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
 	content: '';
@@ -197,26 +206,25 @@ p {
 	transition: .3s ease;
 	transition-property: top, bottom;
 }
+
 #header .hamburger .bar::after {
 	top: 8px;
 }
+
 #header .hamburger .bar::before {
 	bottom: 8px;
 }
+
 #header .hamburger.active .bar::before {
 	bottom: 0;
 }
+
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-/* End Header section */
+/* nav section end */
 
-/**.hr{
-    margin: 2rem 0rem;
-}**/
-
-
-
+/* hero section start */
 #hero {
     background-image: url(./images/hero.jpg);
     background-size: cover;
@@ -249,13 +257,10 @@ p {
     transform: translate(-50%, -50%);
     z-index: 10;
     width: 50%;
-	
     padding: 20px;
     text-align: center;
     font-size: larger;
 }
-
-
 
 #hero h1 span {
 	position: absolute;
@@ -267,12 +272,15 @@ p {
 	animation: text_reveal_box 1s ease;
 	animation-delay: .5s;
 }
+
 #hero h1:nth-child(1) span {
 	animation-delay: .5s;
 }
+
 #hero h1:nth-child(2) span {
 	animation-delay: 1.5s;
 }
+
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
@@ -280,10 +288,9 @@ p {
 .name{
 	color: rgb(37, 37, 153);
 }
+/* hero section start */
 
-
-
-
+/* about section start */
 #about {
     background-image: url(./images/about.jpg);
     background-size: cover;
@@ -301,6 +308,7 @@ p {
 	letter-spacing: .2rem;
 	text-align: center;
 }
+
 .about-title span {
 	color: rgb(37, 37, 153);
 }
@@ -321,19 +329,16 @@ p {
 #about .col-right {
 	width: 100%;
 }
+
 #about .col-right h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	letter-spacing: .2rem;
 	margin-bottom: 10px;
 }
+/* about section end */
 
-
-
-
-
-
-/* Services Section */
+/* skill section start */
 #skills {
     background-image: url(./images/skill.jpg);
     background-size: cover;
@@ -350,22 +355,21 @@ p {
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	text-align: center;
-	padding-bottom: 4rem;
+	padding-bottom: 3rem;
 }
+
 .skill-title span {
 	color: rgb(37, 37, 153);
 }
 
-
-
 .skill-card {
     width: 300px;
-    height: 400px;
+    height: 300px;
     box-shadow: 5px 5px 20px rgb(46, 192, 192);
     margin: 10px;
 	font-weight: bold;
 	background-color: rgba(98, 147, 194, 0.24);
-	
+	padding-top: 2rem;
 } 
 
 .skill-container {
@@ -383,18 +387,17 @@ p {
     .skill-container {
         display: flex;
         flex-wrap: wrap;
-		
     }
 }
+/* skill section end */
 
-/* Projects section */
+/* project section start */
 #projects {
     background-image: url(./images/prj0.jpg);
     background-size: cover;
     background-position: top center;
 	position: relative;
 	z-index: 1;
-	
 }
 
 .project-title {
@@ -407,6 +410,7 @@ p {
 	text-align: center;
 	padding-bottom: 4rem;
 }
+
 .project-title span {
 	color: rgb(37, 37, 153);
 }
@@ -421,39 +425,27 @@ p {
     flex-direction: column;
     text-align: center;
     padding: 80px;
-	
 }
-
 
  .project-card {
     width: 300px;
-    height: 400px;
+    height: 300px;
     box-shadow: 5px 5px 20px rgb(46, 123, 194);
     margin: 10px;
 	font-weight: bold;
 	background-color: rgba(98, 147, 194, 0.24);
-	
 } 
 
 .project-container {
     display: flex;
     justify-content: space-around;
-	
 }
 
 @media only screen and (max-width: 1000px) {
     .project-container {
         display: flex;
         flex-wrap: wrap;
-		
     }
-}
-
-
-
-hr {
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .project-link {
@@ -468,16 +460,14 @@ hr {
     padding-left: 1rem;
     padding-top: 0.5rem;
     text-align: center;
-    
 }
 
 a {
     text-decoration: none;
     color: white;
-	
 }
 
-/* End Projects section */
+/* project section end */
 
 /* blog section start */
 
@@ -487,8 +477,8 @@ a {
     background-position: top center;
 	position: relative;
 	z-index: 1;
-	
 }
+
 .blog-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -499,18 +489,18 @@ a {
 	text-align: center;
 	padding-bottom: 4rem;
 }
+
 .blog-title span {
 	color: rgb(37, 37, 153);
 }
+
 .blog-card {
     width: 300px;
-    height: 400px;
+    height: 300px;
     box-shadow: 5px 5px 20px rgb(160, 96, 11);
     margin: 10px;
 	font-weight: bold;
-	background-color: rgba(78, 55, 31, 0.24);
-	
-	
+	background-color: rgba(78, 55, 31, 0.24);	
 }
 
 .blog-container {
@@ -524,8 +514,6 @@ a {
         flex-wrap: wrap;
     }
 }
-
-
 
 hr {
     margin-left: 20px;
@@ -544,7 +532,6 @@ hr {
     padding-left: 1rem;
     padding-top: 0.5rem;
     text-align: center;
-    
 }
 
 /* blog section end */
@@ -558,6 +545,7 @@ hr {
 	position: relative;
 	z-index: 1;
 }
+
 .contact-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -568,6 +556,7 @@ hr {
 	text-align: center;
 	padding-top: 5rem;
 }
+
 .contact-title span {
 	color: rgb(37, 37, 153);
 }
@@ -579,13 +568,15 @@ hr {
 	padding-bottom: 5rem;
 }
 
-
+.text-cnt{
+	text-align: center;
+	color: white;
+	font-size: 1.7rem;
+}
 
 .social {
-    
-	padding-left: 0.5rem;
+    padding-left: 0.5rem;
 	padding-right: 0.5rem;
-	
 }
 
 /* contact section end */
