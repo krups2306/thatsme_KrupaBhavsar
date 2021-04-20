@@ -570,7 +570,7 @@ a {
 
 /* End Projects section */
 
-/* Blogs section */
+/* blog section start */
 
 #blogs {
     background-image: url(gray.jpg);
@@ -637,11 +637,9 @@ hr {
     
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+/* blog section end */
 
+/* contact section start */
 
 #contact {
     background-image: url(cnt.jpg);
@@ -664,40 +662,11 @@ a {
 	color: rgb(37, 37, 153);
 }
 
-
-.List-non-bullet{
-    list-style: none;
-	align-items: center;
-}
-
-.List-item {
-    align-items: center;
-	text-align: center;
-	justify-items: center;
-	display: inline;
-	margin-left: auto;
-	margin-right: auto;
-	
-	  
-
-}
-.Link{
-    color:white;
-}
-
-.Link-active{
-    font-weight: bold;
-}
-
-
-.cnt-container{
-	text-align: center;
-	align-items: center;
+.contact{
 	height: 100%;
 	width: 100%;
-	padding-top: 10rem;
-	padding-bottom: 10rem;
-	
+	padding-top: 2rem;
+	padding-bottom: 5rem;
 }
 
 .para {
@@ -710,48 +679,13 @@ a {
 	text-align: center;
 }
 
-.iconcnt{
-	height: 100%;
-	width: 100%;
-	align-items: center;
-	display: inline-flex;
-	flex-shrink: inherit;
-	text-align: center;
-	padding-left: 7rem;
-	padding-right: auto;
-}
-
-
-
-
-.socials {
-    padding-bottom: 200px;
-	display: inline;
-}
-.logo {
-    height: 80px;
-    margin: 0px;
-}
 .social {
-    margin: 20px;
-	align-items: center;
-	display: inline;
-	text-align: center;
-}
-
-
-#conn {
-    background-image: url(cnt.jpg);
-    background-size: cover;
-    background-position: top center;
-	position: relative;
-	z-index: 1;
+    
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 	
 }
 
-.connt{
-	height: 100%;
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 5rem;
-}
+/* contact section end */
+
+
