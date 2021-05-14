@@ -398,7 +398,7 @@ hr {
 
 /* project section start */
 #projects {
-    background-image: url(./images/prj0.jpg);
+    background-image: linear-gradient(to left, rgb(113, 130, 228) , rgb(230, 214, 79) , rgb(230, 122, 122));
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -466,7 +466,7 @@ hr {
 /* blog section start */
 
 #blogs {
-    background-image: url(./images/blogs.jpg);
+    background-image: linear-gradient(to right, #44c6e0, #3c3cb8, rgb(114, 230, 114));
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -488,7 +488,7 @@ hr {
 .blog-card {
     width: 300px;
     height: 300px;
-    box-shadow: 5px 5px 20px rgb(160, 96, 11);
+    box-shadow: 5px 5px 20px rgb(48, 177, 65);
     margin: 10px;
 	font-weight: bold;
 	background-color: rgba(78, 55, 31, 0.24);	
