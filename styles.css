@@ -453,7 +453,7 @@ hr {
 	color: var(--primary-color);
 }
  .project-card {
-    width: 300px;
+    width: 350px;
     height: 300px;
     box-shadow: 5px 5px 20px rgb(22, 22, 22);
     margin: 10px;
@@ -522,7 +522,7 @@ hr {
 	color: var(--primary-color);
 }
 .blog-card {
-    width: 300px;
+    width: 350px;
     height: 300px;
     box-shadow: 5px 5px 20px rgb(23, 26, 23);
     margin: 10px;
