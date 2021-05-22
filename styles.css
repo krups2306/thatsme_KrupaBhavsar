@@ -88,7 +88,7 @@ hr {
 }
 
 .subtext {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -186,7 +186,7 @@ hr {
 	height: 60px;
 	width: 60px;
 	display: inline-block;
-	border: 3px solid var(--primary-color);
+	border: 3px solid #2E4053;
 	border-radius: 50%;
 	position: relative;
 	display: flex;
@@ -204,7 +204,7 @@ hr {
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
-	border: 3px solid var(--primary-color);
+	border: 3px solid #2E4053;
 	animation: hamburger_puls 1s ease infinite;
 }
 
@@ -212,7 +212,7 @@ hr {
 	height: 2px;
 	width: 30px;
 	position: relative;
-	background-color: var(--primary-color);
+	background-color: #2E4053;
 	z-index: -1;
 }
 
@@ -223,7 +223,7 @@ hr {
 	height: 100%;
 	width: 100%;
 	left: 0;
-	background-color: var(--primary-color);
+	background-color: #2E4053;
 	transition: .3s ease;
 	transition-property: top, bottom;
 }
@@ -313,7 +313,7 @@ img{
 	font-size: 20px;
 	margin: 0;
 }
-.hero .hero-text cta4{
+.hero .hero-text .cta4{
 	padding-top: 10px;
 }
 .hero .kb-pic .img-box {
@@ -630,7 +630,7 @@ img{
 }
 .blog-card {
     width: 350px;
-    height: 300px;
+    height: 350px;
     box-shadow: 5px 5px 20px rgb(23, 26, 23);
     margin: 10px;
 	font-weight: bold;
