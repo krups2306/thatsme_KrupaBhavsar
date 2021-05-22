@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 :root{
-    --primary-color: #047857;
-    --darkgray: rgb(53, 48, 48);
+    --primary-color: #17A589;
+    --darkgray: white;
 }
 
 body, html{
@@ -10,6 +10,12 @@ body, html{
     margin: 0;
     scroll-behavior: smooth;
 	padding: 0;
+	line-height: 1.5;
+	
+}
+*{
+	box-sizing: border-box;
+	outline: none;
 }
 
 a{
@@ -74,10 +80,10 @@ hr {
 .brand h1 {
 	font-size: 2rem;
 	text-transform: uppercase;
-	color: rgb(53, 48, 48);
+	color: #2E4053;
 }
 .brand h1 span {
-	color: var(--primary-color);
+	color: white;
 	font-size: larger;
 }
 
@@ -108,7 +114,7 @@ hr {
 
 #header .header {
 	min-height: 8vh;
-	background-image: linear-gradient(to right, #FCD34D, #FCA5A5, #A78BFA);
+	background-image: linear-gradient(to right, #17A589, #1ABC9C);
 	transition: .3s ease background-color;
 }
 
@@ -240,7 +246,108 @@ hr {
 /* nav section end */
 
 /* hero section start */
-#hero {
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	vertical-align: middle;
+	max-width: 100%;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+.align-items-center{
+	align-items: center;
+}
+.outer-shadow{
+	box-shadow: gray;
+}
+.hover-in-shadow{
+	position: relative;
+	z-index: 1;
+}
+.hover-in-shadow:hover{
+	box-shadow: rgb(31, 28, 28);
+}
+.hero-container{
+	max-width: 1140px;
+	
+	margin: auto;
+
+}
+.hero{
+	background-color: rgb(68, 63, 63);
+	background-size: cover;
+	background-position: top center;
+}
+.hero .full-screen {
+	 min-height: 100vh;
+	 padding: 50 px 0;
+}
+.hero .hero-text,
+.hero .kb-pic{
+    flex: 0 0 50%;
+	max-width: 50%;
+	padding: 0 15px;
+}
+.hero .hero-text p{
+	color: white;
+	font-size: 18px;
+	text-transform: capitalize;
+	margin: 0;
+}
+.hero .hero-text h1{
+    color: white;
+	font-size: 55px;
+	font-weight: 600;
+	margin: 0;
+	text-transform: capitalize;
+}
+.hero .hero-text h1 span{
+	color: #17A589;
+}
+.hero .hero-text h2{
+    color: white;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 0;
+}
+.hero .hero-text cta4{
+	padding-top: 10px;
+}
+.hero .kb-pic .img-box {
+	
+	max-width: 450px;
+	max-height: 450px;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	padding: 15px;
+}
+.hero .kb-pic .img-box img{
+	width: 100%;
+	border-radius: 50%;
+	border: 10px solid #aaa;
+}
+.cta4{
+	padding: 10px 25px;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	background-color: grey;
+	line-height: 1.5;
+	cursor: pointer;
+	border-radius: 30px;
+	transition: all 0.3s ease;
+	display: inline-block;
+}
+.cta4::after{
+	border-radius: 30px;
+}
+
+
+/* #hero {
     background-image: url(./images/hero.jpg);
     background-size: cover;
     background-position: top center;
@@ -258,9 +365,9 @@ hr {
 	background-color: black;
 	opacity: .7;
 	z-index: -1;
-}
+} */
 
-.text {
+/* .text {
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4); 
     color: white;
@@ -302,12 +409,12 @@ hr {
 
 .name{
 	color: #059669;
-}
+} */
 /* hero section start */
 
 /* about section start */
 #about {
-    background-image: linear-gradient(to right, #d4e4eb, #b1d8df, rgb(139, 236, 236));
+    background-color: rgb(68, 63, 63);
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -353,7 +460,7 @@ hr {
 
 /* skill section start */
 #skills {
-    background-image: linear-gradient(to right, #d9dbd8, #c7c7cc, rgb(146, 151, 146));
+    background-color: rgb(68, 63, 63);
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -397,7 +504,7 @@ hr {
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #939b99;
+	background-color: rgba(98, 147, 194, 0.24);
   }
   
   .skill-cardh:hover .overlay {
@@ -433,7 +540,7 @@ hr {
 
 /* project section start */
 #projects {
-    background-image: linear-gradient(to right, #d4e4eb, #b1d8df, rgb(139, 236, 236));
+    background-color: rgb(68, 63, 63);
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -502,7 +609,7 @@ hr {
 /* blog section start */
 
 #blogs {
-    background-image: linear-gradient(to right, #d9dbd8, #c7c7cc, rgb(146, 151, 146));
+    background-color: rgb(68, 63, 63);
     background-size: cover;
     background-position: top center;
 	position: relative;
@@ -527,7 +634,7 @@ hr {
     box-shadow: 5px 5px 20px rgb(23, 26, 23);
     margin: 10px;
 	font-weight: bold;
-	background-color: rgba(78, 55, 31, 0.24);
+	background-color: rgba(98, 147, 194, 0.24);
 	padding: 5px;	
 }
 .blog-container {
@@ -569,7 +676,7 @@ hr {
 .cnt-section{
 	height: 110vh;
 	width: 100%;
-	background-image: linear-gradient(to right, #d4e4eb, #b1d8df, rgb(139, 236, 236));
+	background-color: rgb(68, 63, 63);
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -640,7 +747,7 @@ button[type="submit"]:hover{
 /* contact section end */
 
 .foot{
-	background-image: linear-gradient(to right, #FCD34D, #FCA5A5, #A78BFA);
+	background-image: linear-gradient(to right, #17A589, #1ABC9C);
 	margin-top: 0;
 	height: 25vh;
 	padding: 1px;
