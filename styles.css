@@ -328,7 +328,7 @@ img{
 .hero .kb-pic .img-box img{
 	width: 100%;
 	border-radius: 50%;
-	border: 10px solid #aaa;
+	border: 5px solid var(--primary-color);
 }
 .cta4{
 	padding: 10px 25px;
