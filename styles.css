@@ -552,7 +552,49 @@ img{
 	color: white;
   }
   .html {
-	  width: 90%; 
+	width: 90%; 
+	border: 2px black;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	animation: html 2s;
+  }
+  .css {
+	width: 75%; 
+	border: 2px black;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	animation: html 2s;
+  }
+  .js {
+	width: 50%; 
+	border: 2px black;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	animation: html 2s;
+  }
+  .node {
+	width: 55%; 
+	border: 2px black;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	animation: html 2s;
+  }
+  .boot {
+	width: 60%; 
+	border: 2px black;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	animation: html 2s;
+  }
+  .python {
+	width: 70%; 
+	border: 2px black;
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	animation: html 2s;
+  }
+  .c-prog {
+	  width: 65%; 
 	  border: 2px black;
 	  border-radius: 10px;
 	  background-color: var(--primary-color);
@@ -564,6 +606,55 @@ img{
 		}
 		100%{
 			width: 90%;
+		}
+	}
+	@keyframes css {
+		0%{
+			width: 0%;
+		}
+		100%{
+			width: 75%;
+		}
+	}
+	@keyframes js {
+		0%{
+			width: 0%;
+		}
+		100%{
+			width: 50%;
+		}
+	}
+	@keyframes node {
+		0%{
+			width: 55%;
+		}
+		100%{
+			width: 90%;
+		}
+	}
+	@keyframes boot {
+		0%{
+			width: 0%;
+		}
+		100%{
+			width: 60%;
+		}
+	}
+	@keyframes python {
+		0%{
+			width: 0%;
+		}
+		100%{
+			width: 70%;
+		}
+	}
+	
+	@keyframes c-prog {
+		0%{
+			width: 0%;
+		}
+		100%{
+			width: 65%;
 		}
 	}
   
