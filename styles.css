@@ -504,7 +504,7 @@ img{
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: rgba(98, 147, 194, 0.24);
+	background-color: rgba(98, 147, 194, 0.75);
   }
   
   .skill-cardh:hover .overlay {
@@ -536,6 +536,37 @@ img{
         flex-wrap: wrap;
     }
 }
+.overlay h2{
+	color: #161b22;
+}
+.scale {
+	width: 100%;
+	background-color: #2E4053;
+	border-radius: 10px;
+  }
+  
+  .scaling {
+	text-align: right;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: white;
+  }
+  .html {
+	  width: 90%; 
+	  border: 2px black;
+	  border-radius: 10px;
+	  background-color: var(--primary-color);
+	  animation: html 2s;
+	}
+	@keyframes html {
+		0%{
+			width: 0%;
+		}
+		100%{
+			width: 90%;
+		}
+	}
+  
 /* skill section end */
 
 /* project section start */
